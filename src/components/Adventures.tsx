@@ -5,7 +5,7 @@ import campImage from "@/assets/adventure-camp.jpg";
 const Adventures = () => {
   const adventures = [
     {
-      title: "Rock Climbing",
+      title: "Nature Hikes",
       description: "Scale dramatic cliffs and rock faces with expert guidance. Perfect for beginners to advanced climbers.",
       image: climbImage,
       duration: "Half Day / Full Day",
