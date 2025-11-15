@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+import logo from "@/assets/logo-actionhike.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-6">
           {/* Logo */}
-          <div className="text-2xl font-bold text-primary">ACTION HIKE</div>
+          <img 
+            src={logo} 
+            alt="Action Hike" 
+            className="h-16 w-auto"
+          />
           
           {/* Social Links */}
           <div className="flex gap-6">

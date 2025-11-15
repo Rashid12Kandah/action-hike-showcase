@@ -1,6 +1,7 @@
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-mountain.jpg";
+import logo from "@/assets/logo-actionhike.png";
 
 const Hero = () => {
   return (
@@ -18,12 +19,16 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Geometric accent */}
+          {/* Logo - centered and prominent */}
           <div className="mb-8 flex justify-center">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 border-2 border-primary rotate-45 animate-pulse"></div>
+            <img 
+              src={logo} 
+              alt="Action Hike" 
+              className="h-32 sm:h-40 lg:h-48 w-auto animate-pulse"
+            />
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-6 text-foreground">
             Conquer the
             <span className="block text-primary mt-2">Mountains</span>
           </h1>
